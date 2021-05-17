@@ -20,15 +20,13 @@ NC=$(tput sgr0)
 echo -e "${RED}Installing Latest Golang${NC}"
 #version=$(curl -s https://golang.org/VERSION?m=text)
 version=go1.15.11
-wget https://golang.org/dl/$version.linux-amd64.tar.gz
-sudo tar -xvf $version.linux-amd64.tar.gz
-sudo mv go /usr/local
-export GOROOT=/usr/local/go
-export GOPATH=$HOME/go
-export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
-echo 'export GOROOT=/usr/local/go' >>~/.bash_profile
-echo 'export GOPATH=$HOME/go' >>~/.bash_profile
-echo 'export PATH=$GOPATH/bin:$GOROOT/bin:$PATH' >>~/.bash_profile
+echo "[*] Installing Golang..."
+wget --quiet https://dl.google.com/go/go1.15.11.linux-amd64.tar.gz
+tar -xvf go1.15.11.linux-amd64.tar.gz >/dev/null
+rm -rf ./go1.15.11.linux-amd64.tar.gz >/dev/null
+mv go /usr/local 
+export GOROOT="/usr/local/go"
+export GOPATH="$homeDir/go"
+export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin:${PATH}"
 source ~/.bash_profile
-rm -fr $version.linux-amd64.tar.gz
 sleep 2

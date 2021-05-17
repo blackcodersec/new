@@ -1,4 +1,4 @@
-## [Colab RDP](Colab%20RDP/Colab%20RDP.ipynb) &nbsp;&nbsp; <a href="https://colab.research.google.com/github/PradyumnaKrishna/Colab-Hacks/blob/master/Colab%20RDP/Colab%20RDP.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+## [Colab RDP](Colab%20RDP/Colab%20RDP.ipynb) &nbsp;&nbsp; <a href="https://colab.research.google.com/github/blackcodersec/reconvps/blob/master/MyVPS/Colab%20RDP.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
  - Create User
  - Don't use username : `root`
@@ -6,10 +6,3 @@
  - Now, Visit Remote Desktop at http://remotedesktop.google.com/ to access your instance
  - Optional: Mount GDrive
  - Optional: Use NGROK for SSH
-
-### **Video Tutorial**
-<p align="center">
-  <a href="http://www.youtube.com/watch?v=xaDz3rxLu4I">
-    <img alt="Video Tutorial" src="http://img.youtube.com/vi/xaDz3rxLu4I/maxresdefault.jpg">
-  </a>
-</p>

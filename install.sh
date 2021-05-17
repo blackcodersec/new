@@ -28,5 +28,5 @@ mv go /usr/local
 export GOROOT="/usr/local/go"
 export GOPATH="$homeDir/go"
 export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin:${PATH}"
-source ~/.bash_profile
+source ~/.bashrc
 sleep 2
